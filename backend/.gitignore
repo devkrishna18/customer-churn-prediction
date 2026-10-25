@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask environment variables
+.env
+.env.*
+
+# Flask instance folder
+instance/
+
+# Logs and debug files
+*.log
+
+# Python virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+
+# MacOS system files
+.DS_Store
+
+# SQLite database (optional)
+*.sqlite3
+*.db
+
+# Compiled files
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Mypy
+.mypy_cache/
+.dmypy.json
